@@ -1,0 +1,268 @@
+*{
+
+  margin: 0px;
+   padding: 0px;
+}
+
+ .firstbox{
+  min-height: 100vh;
+  width: 100%;
+  background-image:url;
+  background-color: #88bdbc;
+  background-position: contain;
+  background-size:100%;
+  background-repeat: no-repeat;
+  
+
+  
+  
+ }
+
+
+ .header{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  position: sticky;
+ }
+
+ .header ul{
+  list-style: none;
+ }
+ .header ul li{
+  display: inline-block;
+  padding: 12px 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+ }
+ .header ul li a{
+  text-decoration: none;
+  color:black;
+ }
+ .header li :hover{
+  border-radius: 2px;
+  background-color: yellow;
+  color: black;
+ }
+
+ #logo{
+  position: sticky;
+  border-radius: 25px 0px 25px 0px;
+  background-color:white;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+  animation-name: myanimation;
+  animation-duration: 4s;
+ } 
+ @keyframes myanimation{
+  0%{background-color: greenyellow;}
+  25%{background-color: black;}
+  50%{background-color: green;}
+  75%{background-color: red;}
+  100%{background-color: greenyellow;}
+
+ }
+ .text{
+  margin: 20% 20px;
+  color:black;
+  justify-content: space-between;
+  display: flex;
+  
+ }
+ .text h4{
+  border: 1px solid;
+  background-color:red;
+margin-top: 60px;
+width: 10%;
+  color:black;
+  border-radius:20px;
+  text-align: center;
+ }
+
+ .stations ul li{
+  list-style:none;
+  font-size: 30px;
+  color:white;
+ }
+ .stations h1{
+  
+  background-color: red;
+ }
+ 
+ .flex p{
+  background-color: black;
+  width: 200px;
+  color: white;
+ }
+ button{
+  margin-top:60px;
+  margin-left: 30px;
+  width: 40%;
+  height: 60px;
+  border-radius: 30px;
+  background-color:white;
+  color:black;
+  font-size: 20px;
+  font-weight: bold;
+  filter: blur(30);
+  
+ }
+ .stations{
+  background-color: black;
+  line-height: 50px;
+  text-align: center;
+ }
+
+ .phase2{
+  position: relative;
+  min-width: 80%;
+  text-align: center;
+  top: 80px;
+  height: 100vh;
+ }
+
+ 
+ .login{
+ max-width: 400px;
+ min-height: 400px;
+  border: black solid 1px;
+  margin-left: 35%;
+  justify-content: space-around;
+  
+  margin-top: 10px;
+  background-color: black;
+  color: green;
+  box-shadow:blue;
+
+ }
+
+form input{
+  height: 40px;
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 10px;
+  margin: 10px;
+border: 2px solid #ccc;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  outline: none;
+  
+
+ }
+form input:hover{
+  border: 2px solid blue;
+ }
+
+ 
+ form{
+  border-radius: 10px;
+
+  background-color: white;
+  box-shadow: 10px 5px 10px 0px rgba(#fff);
+  width: 40%;
+  transform:translateY(-50%)
+  
+
+
+ }
+ form h3{
+  text-align: center;
+  margin-top: 5px;
+  text-transform:capitalize;
+  color: blue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+ }
+ #enter{
+  background-color: blue;
+  color: #fff;
+  width: auto;
+ text-transform: capitalize;
+ }
+
+ 
+ form a{
+  color: gray;
+  text-decoration: none;
+ }
+ form h5{
+  text-align:left;
+  margin:10px  15px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blue;
+ }
+ form h5 a{
+  color:blue;
+ }
+
+ #submit{
+  background-color: brown;
+  color: white;
+  box-shadow:blue;
+ }
+
+ footer{
+  width: 100%;
+ max-height: 100vh;
+  background: rosybrown;
+  
+  
+ }
+
+ footer ul li{
+  display: inline-block;
+  padding: 8px 3px 10px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+  align-content: center;
+ }
+
+ footer h1{
+  text-align: center;
+  top: 10px;
+ }
+
+ .phase2 img{
+  width: 350px;
+  height: 70%;
+  border-radius: 30px;
+ }
+ .ordering{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  top: 200px;
+  justify-items: center;
+  margin-top: 30px;
+  
+  
+ }
+ .fa{
+  text-transform: capitalize;
+  font-style:it ;
+
+ }
+ form{
+  display: flex;
+  flex-direction: column;
+ }
+
+ 
+ 
+ .order h4{
+  position: relative;
+  font-size: 20px;
+  color: gold;
+  text-transform: capitalize;
+ }
